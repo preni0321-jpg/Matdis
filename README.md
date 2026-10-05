@@ -7,7 +7,7 @@ Nim : 260306026
 
 Kelas : 1B
 # Maksud dan Tujuan Repository
-• Maksud: Sistem berbasis digital untuk menghimpun karya intelektual dan dokumen ilmiah yang dihasilkan oleh civitas akademika   (skripsi, tesis, disertasi, jurnal, laporan penelitian, hingga buku digital).
+Maksud: Sistem berbasis digital untuk menghimpun karya intelektual dan dokumen ilmiah yang dihasilkan oleh civitas akademika (skripsi, tesis, disertasi, jurnal, laporan penelitian, hingga buku digital).
 
 • Tujuan Utama:
 

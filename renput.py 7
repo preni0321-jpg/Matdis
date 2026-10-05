@@ -1,8 +1,7 @@
-member = True
-belanja_banyak = False
-dapat_diskon = member and
-belanja_banyak
-if dapat_diskon:
-print("Dapat diskon")
+cashback = True
+gratis_ongkir = True
+prioritas = cashback ^ gratis_ongkir
+if prioritas:
+print("Dapat prioritas")
 else:
-print("Tidak dapat diskon")
+print("Tidak dapat, harus pilih satu")

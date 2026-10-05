@@ -1,0 +1,7 @@
+cashback = True
+gratis_diskon = True
+prioritas = cashback ^ gratis_diskon
+if prioritas:
+print("Dapat prioritas")
+else:
+print("Tidak dapat prioritas")

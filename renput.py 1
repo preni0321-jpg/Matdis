@@ -1,0 +1,8 @@
+punya_kupon = False
+punya_struk = True
+
+dapat_hadiah = punya_kupon or punya_struk
+if dapat_hadiah:
+print ("dapat_hadiah")
+else:
+print ("tidak dapat hadiah")

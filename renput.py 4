@@ -1,0 +1,9 @@
+aktif = True
+nilai = True
+pengalaman = True
+sertifikat = True
+promo = (aktif and nilai) and (pengalaman ^ sertifikat)
+if promo:
+print("LULUS")
+else:
+print("GAGAL karena XOR sama")

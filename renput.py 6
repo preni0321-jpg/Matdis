@@ -1,9 +1,11 @@
-aktif = True
-nilai = True
-pengalaman = True
-sertifikat = True
-promo = (aktif and nilai) and (pengalaman ^ sertifikat)
+punya_kartu = True
+punya_aplikasi = False
+bayar_cash = True
+bayar_qris = False
+promo = (punya_kartu or
+punya_aplikasi) and (bayar_cash A
+bayar_qris)
 if promo:
 print("LULUS")
 else:
-print("GAGAL karena XOR sama")
+print("GAGAL")

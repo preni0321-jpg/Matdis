@@ -9,5 +9,19 @@ Kelas : 1B
 	• Melestarikan arsip dan warisan intelektual lembaga dalam jangka panjang.
 	• Menyediakan akses terbuka (open access) agar hasil penelitian mudah ditemukan dan dimanfaatkan oleh masyarakat luas.
 	• Meningkatkan visibilitas, reputasi, serta mendukung proses akreditasi institusi.
-	• Menghindari risiko kehilangan data atau dokumen penting fisik/digital
+	
 # Studi Kasus
+1. Dapat hadiah
+2. Dapat diskon 20%
+3. Tidak dapat prioritas
+4. Mendapat promo
+5. GAGAL karena XOR sama
+6. Tidak dapat diskon
+7. LULUS
+8. Tidak dapat, harus pilih satu
+
+# Boolean
+AND
+OR
+XOR
+

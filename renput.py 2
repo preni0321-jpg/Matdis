@@ -1,0 +1,7 @@
+member = True
+belanja_banyak = True
+dapat_diskon = member and belanja_banyak
+if dapat_diskon:
+print("Dapat diskon 20%")
+else:
+print("Tidak dapat diskon 20%")

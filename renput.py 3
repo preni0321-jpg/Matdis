@@ -3,6 +3,6 @@ ulang_tahun = False
 belanja = True
 = promo (member or ulang_tahun) and belanja
 if promo:
-print("Mendapatkan promo")
+    print("Mendapatkan promo")
 else:
-print("Gagal Mendapatkan promo")
+    print("Gagal Mendapatkan promo")

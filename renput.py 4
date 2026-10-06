@@ -4,6 +4,6 @@ pengalaman = True
 sertifikat = True
 promo = (aktif and nilai) and (pengalaman ^ sertifikat)
 if promo:
-print("LULUS")
+    print("LULUS")
 else:
-print("GAGAL karena XOR sama")
+    print("GAGAL karena XOR sama")

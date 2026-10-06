@@ -6,6 +6,6 @@ promo = (punya_kartu or
 punya_aplikasi) and (bayar_cash A
 bayar_qris)
 if promo:
-print("LULUS")
+print("BERHASIL")
 else:
 print("GAGAL")

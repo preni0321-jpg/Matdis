@@ -3,6 +3,6 @@ belanja_banyak = False
 dapat_diskon = member and
 belanja_banyak
 if dapat_diskon:
-print("Dapat diskon")
+    print("Dapat diskon")
 else:
-print("Tidak dapat diskon")
+    print("Tidak dapat diskon")

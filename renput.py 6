@@ -1,11 +1,11 @@
 punya_kartu = True
 punya_aplikasi = False
 bayar_cash = True
-bayar_qris = False
+bayar_qris = True
 promo = (punya_kartu or
-punya_aplikasi) and (bayar_cash A
+punya_aplikasi) and (bayar_cash and
 bayar_qris)
 if promo:
-print("BERHASIL")
+	print("BERHASIL")
 else:
-print("GAGAL")
+	print("GAGAL")

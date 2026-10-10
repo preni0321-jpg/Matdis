@@ -1,5 +1,24 @@
+# Percobaan 1
 member = True
 belanja_banyak = True
+dapat_diskon = member and belanja_banyak
+if dapat_diskon:
+    print("Dapat diskon 20%")
+else:
+    print("Tidak dapat diskon 20%")
+
+# Percobaan 2
+member = True
+belanja_banyak = False
+dapat_diskon = member and belanja_banyak
+if dapat_diskon:
+    print("Dapat diskon 20%")
+else:
+    print("Tidak dapat diskon 20%")
+
+# Percobaan 3
+member = False
+belanja_banyak = False
 dapat_diskon = member and belanja_banyak
 if dapat_diskon:
     print("Dapat diskon 20%")

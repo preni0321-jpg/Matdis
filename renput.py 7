@@ -1,7 +1,26 @@
+# Percobaan 1
 cashback = True
 gratis_ongkir = True
 prioritas = cashback ^ gratis_ongkir
 if prioritas:
-    print("Dapat prioritas")
+    print("Dapat gratis ongkir")
 else:
-    print("Tidak dapat, harus pilih satu")
+    print("Tidak dapat gratis ongkir") 
+
+# Percobaan 2
+cashback = False
+gratis_ongkir = True
+prioritas = cashback ^ gratis_ongkir
+if prioritas:
+    print("Dapat gratis ongkir")
+else:
+    print("Tidak dapat gratis ongkir") 
+
+# Percobaan 3
+cashback = False
+gratis_ongkir = False
+prioritas = cashback ^ gratis_ongkir
+if prioritas:
+    print("Dapat gratis ongkir")
+else:
+    print("Tidak dapat gratis ongkir") 

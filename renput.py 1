@@ -1,7 +1,6 @@
 # Percobaan 1
 punya_kupon = True
 punya_struk = True
-
 dapat_hadiah = punya_kupon or punya_struk
 if dapat_hadiah:
     print ("Dapat_hadiah")
@@ -11,7 +10,6 @@ else:
 # Percobaan 2
 punya_kupon = True
 punya_struk = False
-
 dapat_hadiah = punya_kupon or punya_struk
 if dapat_hadiah:
     print ("Dapat_hadiah")
@@ -21,7 +19,6 @@ else:
 # Percobaan 3
 punya_kupon = False
 punya_struk = False
-
 dapat_hadiah = punya_kupon or punya_struk
 if dapat_hadiah:
     print ("Dapat_hadiah")

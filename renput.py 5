@@ -1,8 +1,27 @@
-member = True
-belanja_banyak = False
-dapat_diskon = member and
-belanja_banyak
-if dapat_diskon:
-    print("Dapat diskon")
+# Percobaan 1
+belanja_banyak = True
+gratis_ongkir = True
+cashback = (belanja_banyak ^ gratis_ongkir)
+if cashback:
+    print("Dapat Cashback")
 else:
-    print("Tidak dapat diskon")
+    print("Tidak Mendapat Cashback")
+
+# Percobaan 2
+belanja_banyak = False
+gratis_ongkir = True
+cashback = (belanja_banyak ^ gratis_ongkir)
+if cashback:
+    print("Dapat Cashback")
+else:
+    print("Tidak Mendapat Cashback")
+
+# Percobaan 3
+belanja_banyak = False
+gratis_ongkir = False
+cashback = (belanja_banyak ^ gratis_ongkir)
+if cashback:
+    print("Dapat Cashback")
+else:
+    print("Tidak Mendapat Cashback")
+

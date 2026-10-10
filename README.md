@@ -18,12 +18,12 @@ Maksud: Sistem berbasis digital untuk menghimpun karya intelektual dan dokumen i
 # Studi Kasus
 1. Dapat hadiah
 2. Dapat diskon 20%
-3. Tidak dapat prioritas
-4. Mendapat promo
-5. GAGAL karena XOR sama
-6. Tidak dapat diskon
-7. LULUS
-8. Tidak dapat, harus pilih satu
+3. Promo member
+4. Seleksi karyawan
+5. Dapat cashback
+6. Dapat Promo
+7. Gratis ongkir
+8. Logi username
 
 # Boolean
 AND

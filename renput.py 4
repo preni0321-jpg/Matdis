@@ -3,8 +3,31 @@ aktif = True
 nilai = True
 pengalaman = True
 sertifikat = True
-promo = (aktif and nilai) and (pengalaman ^ sertifikat)
-if promo:
-    print("LULUS")
+lulus = (aktif and nilai) and (pengalaman or sertifikat)
+if lulus:
+    print("Diterima")
 else:
-    print("GAGAL karena XOR sama")
+    print("Tidak diterima")
+
+# Percobaan 2
+aktif = False
+nilai = True
+pengalaman = False
+sertifikat = True
+lulus = (aktif and nilai) and (pengalaman or sertifikat)
+if lulus:
+    print("Diterima")
+else:
+    print("Tidak diterima")
+
+# Percobaan 3
+aktif = False
+nilai = False
+pengalaman = False
+sertifikat = False
+lulus = (aktif and nilai) and (pengalaman or sertifikat)
+if lulus:
+    print("Diterima")
+else:
+    print("Tidak diterima")
+

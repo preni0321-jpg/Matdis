@@ -1,6 +1,7 @@
 # Percobaan 1
 belanja_banyak = True
 gratis_ongkir = True
+
 cashback = (belanja_banyak ^ gratis_ongkir)
 if cashback:
     print("Dapat Cashback")
@@ -10,6 +11,7 @@ else:
 # Percobaan 2
 belanja_banyak = False
 gratis_ongkir = True
+
 cashback = (belanja_banyak ^ gratis_ongkir)
 if cashback:
     print("Dapat Cashback")
@@ -19,6 +21,7 @@ else:
 # Percobaan 3
 belanja_banyak = False
 gratis_ongkir = False
+
 cashback = (belanja_banyak ^ gratis_ongkir)
 if cashback:
     print("Dapat Cashback")

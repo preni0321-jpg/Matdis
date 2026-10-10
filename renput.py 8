@@ -1,6 +1,7 @@
 # Percobaan 1
 username_benar = True
 password_benar = True
+
 masuk = (username_benar ^ password_benar)
 if masuk:
 	print("Anda berhasil masuk")
@@ -11,6 +12,7 @@ else:
 # Percobaan 2
 username_benar = True
 password_benar = False
+
 masuk = (username_benar ^ password_benar)
 if masuk:
 	print("Anda berhasil masuk")
@@ -21,6 +23,7 @@ else:
 # Percobaan 3
 username_benar = False
 password_benar = False
+
 masuk = (username_benar ^ password_benar)
 if masuk:
 	print("Anda berhasil masuk")

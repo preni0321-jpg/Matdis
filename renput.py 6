@@ -3,6 +3,7 @@ punya_kartu = True
 punya_aplikasi = True
 bayar_cash = True
 bayar_qris = True
+
 promo = (punya_kartu or punya_aplikasi) and (bayar_cash and bayar_qris)
 if promo:
 	print("BERHASIL")
@@ -14,6 +15,7 @@ punya_kartu = True
 punya_aplikasi = True
 bayar_cash = False
 bayar_qris = False
+
 promo = (punya_kartu or punya_aplikasi) and (bayar_cash and bayar_qris)
 if promo:
 	print("BERHASIL")
@@ -25,6 +27,7 @@ punya_kartu = False
 punya_aplikasi = False
 bayar_cash = False
 bayar_qris = False
+
 promo = (punya_kartu or punya_aplikasi) and (bayar_cash and bayar_qris)
 if promo:
 	print("BERHASIL")

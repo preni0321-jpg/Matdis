@@ -3,6 +3,7 @@ aktif = True
 nilai = True
 pengalaman = True
 sertifikat = True
+
 lulus = (aktif and nilai) and (pengalaman or sertifikat)
 if lulus:
     print("Diterima")
@@ -14,6 +15,7 @@ aktif = False
 nilai = True
 pengalaman = False
 sertifikat = True
+
 lulus = (aktif and nilai) and (pengalaman or sertifikat)
 if lulus:
     print("Diterima")
@@ -25,6 +27,7 @@ aktif = False
 nilai = False
 pengalaman = False
 sertifikat = False
+
 lulus = (aktif and nilai) and (pengalaman or sertifikat)
 if lulus:
     print("Diterima")

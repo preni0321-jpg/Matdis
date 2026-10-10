@@ -1,6 +1,28 @@
+# percobaan 1
+member = True
+ulang_tahun = True
+belanja = True
+= promo (member or ulang_tahun) and belanja
+if promo:
+    print("Mendapatkan promo")
+else:
+    print("Gagal Mendapatkan promo") 
+
+# Percobaan 2
 member = True
 ulang_tahun = False
-belanja = True
+belanja = False
+= promo (member or ulang_tahun) and belanja
+if promo:
+    print("Mendapatkan promo")
+else:
+    print("Gagal Mendapatkan promo")
+
+# Percobaan 3
+# Percobaan 2
+member = False
+ulang_tahun = False
+belanja = False
 = promo (member or ulang_tahun) and belanja
 if promo:
     print("Mendapatkan promo")

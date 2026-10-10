@@ -1,7 +1,8 @@
-cashback = True
-gratis_diskon = True
-prioritas = cashback ^ gratis_diskon
-if prioritas:
-  print("D  apat prioritas")
+username_benar = True
+password_benar = True
+masuk = (username_benar ^ password_benar)
+if masuk:
+	print("Anda berhasil masuk")
 else:
-    print("Tidak dapat prioritas")
+	print("Login gagal!")
+	print("Silahkan coba lagi!")
